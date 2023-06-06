@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: mintcream;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/header.jpg);
+    background-size: contain;
+    background-position: center;
+    padding: 10px 8px;
+    position: relative;
+}
+nav{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  padding:  10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    border: 1px solid #fff;
+    align-items: center;
+    background: transparent;
+    padding: 7px 10px;
+}
+.language-btn img {
+    max-width: 22px; 
+    max-height: 22px;  
+  }
+  .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   margin-top: 100px;
+  }
+  
+  .header-content h1 {
+    font-size: 4rem; /* Adjust the font size as needed */
+    line-height: 1.2;
+    max-width: 650px; /* Adjust the maximum width as needed */
+    font-weight: 600;
+    text-align: center;
+    
+  }
+  
+  .header-content h1 span {
+    display: inline-block;
+  }
+  .header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .email-signup{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  .email-signup { display: flex; flex-wrap: wrap; }
+
+  
+  .email-signup input[type="email"] {
+    flex: 1;
+    margin-left:  10px;
+    border: 0;
+    outline: 0;
+  }
+  
+  .email-signup button[type="submit"] {
+    flex-shrink: 0;
+    color: black;
+    border: 0;
+    outline: 0;
+    background-color: skyblue;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  
